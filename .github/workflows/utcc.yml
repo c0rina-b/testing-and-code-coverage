@@ -15,6 +15,6 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                 node-version: 20
-            - run: nmp ci
+            - run: npm ci
             - run: npm test
             - uses: ArtiomTr/jest-coverage-report-action@v2
